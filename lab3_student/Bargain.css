@@ -1,16 +1,57 @@
+.header1 {
+    text-align: left;
+    border: 1px solid black;
+    background-color: white;
+    width: 100%;
+    position: sticky;
+    top: 0;
+}
+
+.header2 {
+    text-align: left;
+    border: 1px solid black;
+    padding: 8px;
+}
+
 .col1 {
+    background-color: yellow;
     width: 60%;
+    height: 200px;
     margin-top: 6px;
     float: left;
-    background-color: yellow;
+    display: block;
 }
 
 .col2 {
-    margin-top: 6px;
-    float: left;
-    width: 38%;
     background-color: yellow;
-    margin-left: 2%;
+    width: 37%;
+    height: 200px;
+    margin-top: 6px;
+    margin-left: 3%;
+    float: right;
+    display: block;
+}
+
+.title1 {
+    width: 60%;
+    border-bottom: 2px solid black;
+}
+
+.title2 {
+    width: 37%;
+    margin-left: 3%;
+    margin-left: 3%;
+    border-bottom: 2px solid black;
+}
+
+.box {
+    border: 1px solid black;
+}
+
+#inline {
+    width: 100%;
+    height: auto;
+    display: flex;
 }
 
 .col3 {
@@ -21,27 +62,18 @@
 
 .col4 {
     margin-top: 6px;
-    float: left;
-    width: 38%;
-    margin-left: 2%;
+    float: right; 
+    width: 37%;
+    margin-left: 3%;
 }
 
-.formQuery {
-    border-style: solid;
-    width: 98%;
-    padding: 1%;
-    margin-left: 2px;
-}
-
-a{
+a {
     font-size: 20px;
     color: blue;
 }
 
-hr {
-    border: 1px solid black;
-}
-
 .footer {
     text-align: center;
+    border: 1px solid black;
+    padding: 8px;
 }
