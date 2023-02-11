@@ -1,58 +1,70 @@
 <!DOCTYPE html>
 
 <head>
-
+    <link rel="stylesheet" href="AddMovie.css">
 </head>
 
 <body>
-    <h1><a href="./BoxOffice.html" >Box Office</a> > Add Movie</h1>
+    <form>
+        <h1><a href="BoxOffice.html">Box Office</a> > Add Movie</h1>
 
-    <table border="1" cellpadding="2">
-        <form>
-            <tr>
-                <th>Movie:</th>
-                <td>
+
+        <div>
+            <div>
+                <div class="col1">
+                    <label>Movie</label>
+                </div>
+                <div class="col2">
                     <input type="text">
-                </td>
-            </tr>
-
-            <tr>
-                <th>Studio:</th>
-                <td>
-                    <select name="list">
+                </div>
+            </div>
+            <div>
+                <div class="col1">
+                    <label>Studio</label>
+                </div>
+                <div class="col2">
+                    <select name="list" type="text">
                         <option value="one">Sony Pictures Releasing</option>
-                        <option value="one">STX Entertainment</option>
-                        <option value="one">Universal Pictures</option>
-                        <option value="one">Walt Disney Studios</option>
+                        <option value="two">STX Entertainment</option>
+                        <option value="three">Universal Pictures</option>
+                        <option value="four">Walt Disney Studios</option>
                     </select>
-                </td>
-            </tr>
+                </div>
 
-            <tr>
-                <th>Gross:</th>
-                <td>
+            </div>
+            <div>
+                <div class="col1">
+                    <label>Gross</label>
+                </div>
+                <div class="col2">
                     <input type="text">
-                </td>
-            </tr>
+                </div>
+            </div>
+            <div>
+                <div class="col1">
+                    <label>Theaters</label>
+                </div>
+                <div class="col2">
+                    <input type="text">
 
-            <tr>
-                <th>Theaters:</th>
-                <td>
-                    <input type="text">
-                </td>
-            </tr> 
-            <tr>
-                <th>New Release:</th>
-                <td>
-                    <input name="a" type="checkbox">
-                </td>
-            </tr>
-            <tr>
-                <td colspan="2">
-                    <button type="reset">Reset</button>
-                    <button type="submit">Submit</button>
-                </td>
-            </tr>
-        </form>
-    </table>
+                </div>
+            </div>
+            <div>
+                <div class="col1">
+                    <label>New Release</label>
+                </div>
+                <div class="col2">
+                    <input name="box" type="checkbox">
+                </div>
+            </div>
+            <br>
+
+            <div>
+                <button type="reset">Reset</button>
+                <button type="submit">Submit</button>
+            </div>
+
+        </div>
+    </form>
+
 </body>

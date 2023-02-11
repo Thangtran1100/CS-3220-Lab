@@ -1,0 +1,54 @@
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+div {
+    font-size: 18px;
+}
+
+[type="text"] {
+    width: 95%;
+    padding: 3px;
+}
+
+[name="list"] {
+    font-size: 15px;
+}
+
+label {
+    font-weight: bold;
+}
+
+.col1 {
+    width: 30%;
+    margin-top: 6px;
+    float: left;
+
+}
+
+.col2 {
+    margin-top: 6px;
+    float: left;
+    width: 70%;
+}
+
+button {
+    margin-top: 2%;
+}
+
+form{
+    /* border: 1px solid black;
+    padding: 20px;
+    border-radius: 10px; */
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 20px;
+    width: 45%;
+    height: 270px;
+}

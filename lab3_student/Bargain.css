@@ -1,0 +1,47 @@
+.col1 {
+    width: 60%;
+    margin-top: 6px;
+    float: left;
+    background-color: yellow;
+}
+
+.col2 {
+    margin-top: 6px;
+    float: left;
+    width: 38%;
+    background-color: yellow;
+    margin-left: 2%;
+}
+
+.col3 {
+    width: 60%;
+    margin-top: 6px;
+    float: left;
+}
+
+.col4 {
+    margin-top: 6px;
+    float: left;
+    width: 38%;
+    margin-left: 2%;
+}
+
+.formQuery {
+    border-style: solid;
+    width: 98%;
+    padding: 1%;
+    margin-left: 2px;
+}
+
+a{
+    font-size: 20px;
+    color: blue;
+}
+
+hr {
+    border: 1px solid black;
+}
+
+.footer {
+    text-align: center;
+}

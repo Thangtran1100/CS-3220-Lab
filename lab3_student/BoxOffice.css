@@ -1,0 +1,28 @@
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+table {
+  border-collapse: collapse;
+  font-size: 22px;
+}
+
+.bottomShort {
+  border-bottom: 1pt solid black;
+}
+
+.bottomSingle {
+  border-bottom: 2pt solid black;
+}
+
+.bottomDouble {
+  border-bottom: 4pt double black;
+}
+
+.fontSize{
+  font-size: 22px;
+}
