@@ -15,6 +15,11 @@ div {
     padding: 3px;
 }
 
+[name="box"] {
+    float: left;
+    margin-left: 0px;
+}
+
 [name="list"] {
     font-size: 15px;
 }
@@ -27,7 +32,6 @@ label {
     width: 30%;
     margin-top: 6px;
     float: left;
-
 }
 
 .col2 {
@@ -38,6 +42,12 @@ label {
 
 button {
     margin-top: 2%;
+}
+
+.buttonPos {
+    position: absolute;
+    left: 29px;
+    top: 275px;
 }
 
 form{
